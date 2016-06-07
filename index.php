@@ -13,9 +13,6 @@
 
 <br>APELLIDO: <input type='text' name='Apellido' id='Apellido'> 
 
-<br>E-MAIL:<input type='text' name='email' id='email' pattern="^[a-zA-Z0-9.!#$%'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" 
- required	value="ejemplo@hotmail.com" 
-onclick="if(this.value=='ejemplo@hotmail.com') this.value=''" onblur="if(this.value=='') this.value='ejemplo@hotmail.com'">
 
 onclick="if(this.value=='Con Codigo de Area') this.value=''" onblur="if(this.value=='') this.value='Con Codigo de Area'">
 <br>ASUNTO: <input type='text' name='asunto' id='asunto'>
