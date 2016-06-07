@@ -19,6 +19,9 @@ $sCabeceras .= "MIME-version: 1.0\n";
 foreach ($_POST as $sNombre => $sValor) 
 $sTexto = $sTexto."\n".$sNombre." = ".$sValor;
 
+foreach ($_POST as $sApellido => $sValor) 
+$sTexto = $sTexto."\n".$sApellido." = ".$sValor;
+
 foreach ($_FILES as $vAdjunto)
 { 
 if ($bHayFicheros == 0)
@@ -58,11 +61,7 @@ if (form_mail("TUEMAIL@LOQUESEA", $_POST[asunto],
 echo "
  <h1>Su formulario fue enviado con exito </h1>
 <form>   
-<p>Muchas gracias <br>
-O lo que tu quieras poner los que sea!<br>
-Solo realiza el cambiio en este texto!<br>
-<br>
-Saludos el equipo de ..lo que seas..
+<p>Muchas gracias
 </p>
 </form>
 
