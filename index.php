@@ -14,7 +14,7 @@
 <br>APELLIDO: <input type='text' name='Apellido' id='Apellido'> 
 
 
-onclick="if(this.value=='Con Codigo de Area') this.value=''" onblur="if(this.value=='') this.value='Con Codigo de Area'">
+<onclick="if(this.value=='Con Codigo de Area') this.value=''" onblur="if(this.value=='') this.value='Con Codigo de Area'">
 <br>ASUNTO: <input type='text' name='asunto' id='asunto'>
 <br>
 MENSAJE:<br>
